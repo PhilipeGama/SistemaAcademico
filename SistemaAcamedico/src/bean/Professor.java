@@ -3,26 +3,27 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package model;
+package bean;
 
 /**
  *
  * @author Aluno
  */
-public class Disciplina {
+public class Professor {
     private int codigo;
-    private String sigla;
     private String nome;
+    private String formacao;
 
-    public Disciplina() {
+    public Professor() {
+    }
+
+    public Professor(int codigo, String nome, String formacao) {
+        this.codigo = codigo;
+        this.nome = nome;
+        this.formacao = formacao;
     }
 
     
-    public Disciplina(int codigo, String sigla, String nome) {
-        this.codigo = codigo;
-        this.sigla = sigla;
-        this.nome = nome;
-    }
 
     public int getCodigo() {
         return codigo;
@@ -30,17 +31,6 @@ public class Disciplina {
 
     public void setCodigo(int codigo) {
         this.codigo = codigo;
-    }
-
-    
-    
-
-    public String getSigla() {
-        return sigla;
-    }
-
-    public void setSigla(String sigla) {
-        this.sigla = sigla;
     }
 
     public String getNome() {
@@ -51,8 +41,18 @@ public class Disciplina {
         this.nome = nome;
     }
 
+    public String getFormacao() {
+        return formacao;
+    }
+
+    public void setFormacao(String formacao) {
+        this.formacao = formacao;
+    }
     
     
+    
+    
+   
     
     
     

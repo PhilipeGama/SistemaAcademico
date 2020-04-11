@@ -5,7 +5,7 @@
  */
 package dao;
 
-import model.Aluno;
+import bean.Aluno;
 import connection.FabricaConexao;
 import java.sql.Connection;
 import java.sql.PreparedStatement;

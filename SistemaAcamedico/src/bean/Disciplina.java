@@ -3,27 +3,25 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package model;
+package bean;
 
 /**
  *
- * @author Philipe
+ * @author Aluno
  */
-public class Turma {
+public class Disciplina {
     private int codigo;
+    private String sigla;
     private String nome;
 
-    public Turma(int codigo, String nome) {
+    public Disciplina() {
+    }
+
+    
+    public Disciplina(int codigo, String sigla, String nome) {
         this.codigo = codigo;
+        this.sigla = sigla;
         this.nome = nome;
-    }
-
-    public Turma(String nome) {
-        this.nome = nome;
-    }
-
-    public Turma() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     public int getCodigo() {
@@ -34,6 +32,17 @@ public class Turma {
         this.codigo = codigo;
     }
 
+    
+    
+
+    public String getSigla() {
+        return sigla;
+    }
+
+    public void setSigla(String sigla) {
+        this.sigla = sigla;
+    }
+
     public String getNome() {
         return nome;
     }
@@ -41,6 +50,11 @@ public class Turma {
     public void setNome(String nome) {
         this.nome = nome;
     }
+
+    
+    
+    
+    
     
     
 }

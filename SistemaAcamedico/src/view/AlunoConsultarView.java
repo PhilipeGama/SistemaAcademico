@@ -5,7 +5,7 @@
  */
 package view;
 
-import model.Aluno;
+import bean.Aluno;
 import dao.AlunoDAO;
 import java.util.Vector;
 import java.util.logging.Level;

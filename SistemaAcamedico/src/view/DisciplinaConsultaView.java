@@ -6,7 +6,7 @@
 package view;
 
 
-import model.Disciplina;
+import bean.Disciplina;
 
 import dao.DisciplinaDAO;
 import java.util.Vector;

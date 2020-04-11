@@ -5,7 +5,7 @@
  */
 package view;
 
-import model.Aluno;
+import bean.Aluno;
 import dao.AlunoDAO;
 import javax.swing.JOptionPane;
 

@@ -3,33 +3,28 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package model;
-
+package bean;
 
 /**
  *
- * @author Aluno
+ * @author Philipe
  */
-public class Aluno {
-    private int codigo;    
+public class Turma {
+    private int codigo;
     private String nome;
-    private String sexo;
 
-    public Aluno() {
-    }
-
-    public Aluno(int codigo, String nome, String sexo) {
+    public Turma(int codigo, String nome) {
         this.codigo = codigo;
         this.nome = nome;
-        this.sexo = sexo;
     }
 
-    public Aluno(String nome, String sexo) {
+    public Turma(String nome) {
         this.nome = nome;
-        this.sexo = sexo;
     }
-    
-    
+
+    public Turma() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 
     public int getCodigo() {
         return codigo;
@@ -46,20 +41,6 @@ public class Aluno {
     public void setNome(String nome) {
         this.nome = nome;
     }
-
-    public String getSexo() {
-        return sexo;
-    }
-
-    public void setSexo(String sexo) {
-        this.sexo = sexo;
-    }
-
     
     
-    
-    
-    
-
-   
 }

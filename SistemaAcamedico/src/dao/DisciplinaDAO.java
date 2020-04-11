@@ -6,8 +6,8 @@
 package dao;
 
 
-import model.Curso;
-import model.Disciplina;
+import bean.Curso;
+import bean.Disciplina;
 import connection.FabricaConexao;
 import java.sql.Connection;
 import java.sql.PreparedStatement;

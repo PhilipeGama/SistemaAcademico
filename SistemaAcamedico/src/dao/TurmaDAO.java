@@ -5,7 +5,7 @@
  */
 package dao;
 
-import model.Turma;
+import bean.Turma;
 import connection.FabricaConexao;
 import java.sql.Connection;
 import java.sql.PreparedStatement;

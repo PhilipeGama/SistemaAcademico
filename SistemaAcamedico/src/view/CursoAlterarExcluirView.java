@@ -5,7 +5,7 @@
  */
 package view;
 
-import model.Curso;
+import bean.Curso;
 import dao.CursoDAO;
 import java.util.logging.Level;
 import java.util.logging.Logger;

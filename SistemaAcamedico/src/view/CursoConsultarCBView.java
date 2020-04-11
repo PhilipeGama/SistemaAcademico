@@ -5,7 +5,7 @@
  */
 package view;
 
-import model.Curso;
+import bean.Curso;
 import dao.CursoDAO;
 import java.util.Vector;
 import javax.swing.DefaultComboBoxModel;

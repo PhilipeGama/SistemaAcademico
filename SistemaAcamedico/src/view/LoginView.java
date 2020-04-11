@@ -5,7 +5,7 @@
  */
 package view;
 
-import model.Administrador;
+import bean.Administrador;
 import dao.AdministradorDAO;
 import java.util.Vector;
 import java.util.logging.Level;

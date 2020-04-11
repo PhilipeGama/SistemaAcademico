@@ -5,7 +5,7 @@
  */
 package view;
 
-import model.Professor;
+import bean.Professor;
 import dao.ProfessorDAO;
 import javax.swing.JOptionPane;
 

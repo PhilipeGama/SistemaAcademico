@@ -5,7 +5,7 @@
  */
 package dao;
 
-import model.Administrador;
+import bean.Administrador;
 import connection.FabricaConexao;
 import java.sql.Connection;
 import java.sql.PreparedStatement;

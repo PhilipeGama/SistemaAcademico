@@ -5,7 +5,7 @@
  */
 package view;
 
-import model.Turma;
+import bean.Turma;
 import dao.TurmaDAO;
 import javax.swing.JOptionPane;
 

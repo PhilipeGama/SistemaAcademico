@@ -6,7 +6,7 @@
 package view;
 
 
-import model.Professor;
+import bean.Professor;
 import dao.ProfessorDAO;
 import java.util.Vector;
 import java.util.logging.Level;
